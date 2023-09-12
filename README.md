@@ -57,7 +57,7 @@
 2. Explore the app!
 
 ## Project Structure
-
+```
 .
 ├── angelQ_website2
 │ ├── asgi.py
@@ -76,7 +76,7 @@
 │ └── js
 └── templates
 └── index.html
-
+```
 
 - `angelQ_website2`: This directory contains the main Django project settings.
   - `asgi.py`: Entry point for ASGI-compatible web servers.
