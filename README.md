@@ -13,7 +13,7 @@
 
 1. **Clone the repository**
     ```bash
-    git clone [https://github.com/yourusername/my-django-app.git](https://github.com/leonidas1312/angelQ_website/tree/main)
+    git clone https://github.com/leonidas1312/angelQ_website/tree/main
     ```
 
 2. **Navigate to the project directory**
