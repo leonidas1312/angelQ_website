@@ -18,7 +18,7 @@
 
 2. **Navigate to the project directory**
     ```bash
-    cd angelQ_website
+    cd angelQ_website2
     ```
 
 3. **Create a new Conda environment**
@@ -54,6 +54,7 @@
 To deactivate the Conda environment when you're done, you can use:
 ```bash
 conda deactivate
+```
 
 ## Usage
 
