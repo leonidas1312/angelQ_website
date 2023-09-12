@@ -18,7 +18,7 @@
 
 2. **Navigate to the project directory**
     ```bash
-    cd my-django-app
+    cd angelQ_website
     ```
 
 3. **Create a virtual environment (optional)**
@@ -38,7 +38,7 @@
 
 5. **Install the required packages**
     ```bash
-    pip install -r requirements.txt
+    pip install django
     ```
 
 6. **Apply migrations**
@@ -56,21 +56,36 @@
 1. Open your web browser and go to `http://127.0.0.1:8000/`
 2. Explore the app!
 
-## Features
+## Project Structure
 
-- User authentication
-- CRUD operations on sample models
-- RESTful API
-- More to come!
+.
+├── angelQ_website2
+│ ├── asgi.py
+│ ├── settings.py
+│ ├── urls.py
+│ ├── views.py
+│ ├── wsgi.py
+│ └── init.py
+├── db.sqlite3
+├── manage.py
+├── static
+│ └── assets
+│ ├── css
+│ ├── fonts
+│ ├── images
+│ └── js
+└── templates
+└── index.html
 
-## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- `angelQ_website2`: This directory contains the main Django project settings.
+  - `asgi.py`: Entry point for ASGI-compatible web servers.
+  - `settings.py`: Contains all the website settings.
+  - `urls.py`: Defines the URL routing for the project.
+  - `views.py`: Handles the request/response logic.
+  - `wsgi.py`: Entry point for WSGI-compatible web servers.
+  - `__init__.py`: Instructs Python to treat this directory as a Python package.
+- `db.sqlite3`: SQLite database file.
+- `manage.py`: Command-line utility for interacting with the Django project.
+- `static`: Contains all the static files.
+- `templates`: Contains all the HTML templates.
