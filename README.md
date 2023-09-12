@@ -7,7 +7,7 @@
 
 - Python 3.x
 - pip
-- virtualenv (optional)
+- conda (optional)
 
 ### Steps
 
@@ -21,22 +21,22 @@
     cd angelQ_website
     ```
 
-3. **Create a virtual environment (optional)**
+3. **Create a new Conda environment**
     ```bash
-    virtualenv venv
+    conda create --name myenv python=3.x
     ```
 
-4. **Activate the virtual environment**
-    - On Windows:
-        ```bash
-        .\venv\Scripts\activate
-        ```
-    - On macOS and Linux:
-        ```bash
-        source venv/bin/activate
-        ```
+4. **Activate the Conda environment**
+    ```bash
+    conda activate myenv
+    ```
 
-5. **Install the required packages**
+5. **Install Django within the Conda environment**
+    ```bash
+    conda install django
+    ```
+
+    Or you can use pip within the Conda environment if you prefer:
     ```bash
     pip install django
     ```
@@ -50,6 +50,10 @@
     ```bash
     python manage.py runserver
     ```
+
+To deactivate the Conda environment when you're done, you can use:
+```bash
+conda deactivate
 
 ## Usage
 
