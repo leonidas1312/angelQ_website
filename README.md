@@ -94,5 +94,7 @@ conda deactivate
 - `static`: Contains all the static files.
 - `templates`: Contains all the HTML templates.
 
-[Click here to see the video](https://github.com/leonidas1312/angelQ_website/blob/main/angelQ_website1.webm)
+  
+https://github.com/leonidas1312/angelQ_website/assets/49210924/f2d326bb-af91-4ce2-828d-d0a458016997
+
 
